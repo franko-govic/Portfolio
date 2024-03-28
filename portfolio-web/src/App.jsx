@@ -1,13 +1,12 @@
-import { useState } from 'react'
+import { React } from 'react'
 import './App.css'
+import Layout from './components/Layout'
 
 function App() {
   
   return (
     <>
-      <h1 className="text-3xl  underline">
-        WELCOME TO PORTFOLIO
-      </h1>
+      <Layout/>
     </>
   )
 }
